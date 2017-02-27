@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\scan_auth.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\scan_auth.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\scan_scan_select.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\scan_scan_select.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\scan_ocr.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\scan_ocr.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\scan_scan.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\scan_scan.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\scan_auth_select.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\scan_auth_select.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\selected_from_album.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\selected_from_album.png"
+    },
+    {
+        "merged": "D:\\BGAQRCode-Android-master\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\back.png",
+        "source": "D:\\BGAQRCode-Android-master\\zxingdemo\\src\\main\\res\\mipmap-hdpi\\back.png"
+    }
+]
