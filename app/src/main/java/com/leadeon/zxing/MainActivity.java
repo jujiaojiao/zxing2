@@ -6,13 +6,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 import java.util.List;
 
 import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
-public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks {
+public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks, View.OnClickListener {
     private static final int REQUEST_CODE_QRCODE_PERMISSIONS = 1;
 
     @Override
@@ -20,6 +21,9 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+
+        findViewById(R.id.test_scan_qrcode).setOnClickListener(this);
+         findViewById (R.id.test_generate_qrcode).setOnClickListener(this);
 //        Intent intent  = new Intent(this,TestScanActivity.class);
 //        startActivity(intent);
     }

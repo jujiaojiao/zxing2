@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TestScanActivity"/>
+        <activity android:name=".DocmentActivity"/>
+        <activity android:name=".Main2Activity"/>
+        <activity android:name=".TestGeneratectivity"/>
     </application>
 
 </manifest>
