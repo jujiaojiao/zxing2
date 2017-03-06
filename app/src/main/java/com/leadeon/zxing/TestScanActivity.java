@@ -93,15 +93,16 @@ public class TestScanActivity extends AppCompatActivity implements QRCodeView.De
 
     @Override
     public void onScanQRCodeSuccess(String result) {
-        Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
+        Log.e(TAG, "onScanQRCodeSuccess: "+result);
 //        vibrate();
 //        mQRCodeView.startSpot();
-        if (result==null){
-            return;
-        }else{
+        if (result!=null&&result.startsWith("http")){
             Intent intent = new Intent(this,Main2Activity.class);
             intent.putExtra("result",result);
+            Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
             startActivity(intent);
+        }else{
+            Toast.makeText(this, "非http链接", Toast.LENGTH_SHORT).show();
         }
 
     }

@@ -21,11 +21,10 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
-
-        findViewById(R.id.test_scan_qrcode).setOnClickListener(this);
-         findViewById (R.id.test_generate_qrcode).setOnClickListener(this);
-//        Intent intent  = new Intent(this,TestScanActivity.class);
-//        startActivity(intent);
+//        findViewById(R.id.test_scan_qrcode).setOnClickListener(this);
+//         findViewById (R.id.test_generate_qrcode).setOnClickListener(this);
+        Intent intent  = new Intent(this,TestScanActivity.class);
+        startActivity(intent);
     }
 
     public void onClick(View view) {
